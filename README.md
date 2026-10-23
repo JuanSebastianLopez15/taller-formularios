@@ -30,9 +30,6 @@
 
 | # | Observación | Campo | Problema | Corrección aplicada |
 |---|-------------|-------|----------|---------------------|
-
 | 1 | Al escribir una contraseña como "abcdefgh", el formulario la rechaza y la persona no sabía por qué antes de enviar. | Contraseña | Los requisitos (8 caracteres, una letra y un número) no se ven hasta que aparece el error. | Agregamos un texto de ayuda debajo del campo: "Mínimo 8 caracteres, con al menos una letra y un número", enlazado con aria-describedby. |
-
 | 2 | Al no marcar la casilla, el mensaje dice "Este campo es obligatorio." | Acepto términos | El mensaje no explica qué hacer para corregirlo. | Cambiamos el mensaje a "Marca la casilla para aceptar los términos." |
-
 | 3 | Al recorrer el formulario solo con Tab, costaba ver en qué campo estaba el foco. | Todos | El foco por defecto del navegador es poco visible. | Agregamos en el CSS un contorno visible con :focus-visible. |
