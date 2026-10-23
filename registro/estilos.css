@@ -1,1 +1,9 @@
-/*Hola juanes*/
+input:user-invalid,
+select:user-invalid {
+  border: 2px solid #c0392b;
+}
+
+.error {
+  color: #c0392b;
+  min-height: 1.2em;
+}
