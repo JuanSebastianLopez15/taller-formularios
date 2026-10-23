@@ -1,9 +1,28 @@
-input:user-invalid,
-select:user-invalid {
+/* Nivel 4: el error lo marca app.js con aria-invalid */
+[aria-invalid="true"] {
   border: 2px solid #c0392b;
 }
 
 .error {
   color: #c0392b;
   min-height: 1.2em;
+}
+
+.ayuda {
+  font-size: 0.9em;
+  color: #555;
+  margin: 0.25em 0 0;
+}
+
+:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
+
+fieldset {
+  margin: 1em 0;
+}
+
+.telefono {
+  margin-bottom: 0.5em;
 }
